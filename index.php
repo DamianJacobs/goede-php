@@ -7,6 +7,7 @@
 </head>
 <body id="ochtend">
 	<?php
+	date_default_timezone_set("Europe/amsterdam");
 	echo date("l jS \of F Y H:i:s");
 	?>
 	<p><?php
